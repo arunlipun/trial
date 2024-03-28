@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>MY E-commerse Website</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0; 
+             /* background-image: url('background2.jpg');  */
+          
+            line-height: 1.5;
+            font-family: sans-serif;
+            /* background-color: aliceblue; */
+            
+
+
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+
+        header {
+            /* background-color: whitesmoke; */
+            background-color: black;
+            /* background-image: url('background2.jpg'); */
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+           
+
+        }
+
+        nav li {
+            /* color: aqua; */
+            display: inline-block;
+            margin-right: 20px;
+           
+            /* background-image: url('nav.jpg'); */
+
+        }
+
+        ul li a {
+           
+            color: white;
+            text-decoration: none;
+           
+          
+        }
+        
+
+
+        main {
+            padding: 30px;
+        }
+
+        .aa {
+            text-align: center;
+            padding: 10px;
+            background-color: yellow;
+        }
+
+        h1 {
+            background-color: black;
+            color: green;
+            /* background-image: url('nav.jpg'); */
+
+        }
+
+        .hero {
+
+            /* color: aqua; */
+            color: aquamarine;
+            text-align: center;
+            height: 60vh;
+            /* background: url(pixel2.jpg); */
+        }
+
+        button {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: white;
+            border: 2px solid red;
+            color: blue;
+            padding: 5px;
+            /* cursor: pointer; */
+        }
+
+        button:hover {
+            background-color: black;
+            color: aqua;
+            transition: 3s;
+
+
+
+        }
+
+        .container {
+            max-width: 1170px;
+            /* background-color: aquamarine; */
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        ul {
+            list-style: none;
+
+        }
+
+        .footer {
+            background-color: black;
+            padding: 70px 0;
+            /* background-image: url(background2.jpg); */
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+
+
+        }
+
+        .footer-col h4 {
+            font-size: 18px;
+            color: rgb(9, 219, 89);
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+            /* background-color: black; */
+
+        }
+
+        .footer-col h4::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: red;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+
+
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 8px;
+
+
+
+        }
+
+        .footer-col ul li a {
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: capitalize;
+            /* color: yellow; */
+            font-weight: 300;
+            color: aqua;
+            display: block;
+            transition: all 0.3s ease;
+
+        }
+
+        .footer-col ul li a:hover {
+            color: red;
+            padding-left: 10px;
+
+        }
+
+        .footer-col .social-links {
+            display: inline-block;
+            height: 40px;
+            width: 100px;
+            background-color: rgb(from rgba(28, 27, 27, 0.155) r g b);
+           
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 0%;
+            /* color: pink; */
+            transition: all 0.5s ease;
+        }
+
+        .footer-col .social-links:hover {
+            color: aqua;
+            background-color: whitesmoke;
+        }
+
+        @media(max-width:767px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+
+
+
+            }
+
+        }
+
+        @media(max-width:574px) {
+            .footer-col {
+                width: 100%;
+                /* margin-bottom: 30px; */
+
+
+
+            }
+
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <header>
+        <h1>MY Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+                <li><a href="login.html">Login</a></li>
+                <!-- <li ><a ><img src="CLIKCART2.png"></a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- <section class="hero">
+        <h2>Welcome to our store</h2>
+        <p>Discover amazing Product</p>
+        <a href="#" class="btn">Shop now</a>
+
+    </section> -->
+    <!-- <main>
+    </main> -->
+
+    <!-- <footer>
+        &copy;MY E-Commerse Website 2024
+    </footer> -->
+    <section class="hero">
+        <h2>Welcome to our store</h2>
+        <p>Discover amazing Product</p>
+        <!-- <a href="#" class="btn">Shop now</a> -->
+        <button><a href="shopnow.html" class="bt">Shop Now</a></button>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">our service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">afflicate program</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order stastus</a></li>
+                        <li><a href="#">payment opitons</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Online Shop</h4>
+                    <ul>
+                        <li><a href="#">watching</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <li>
+                        <a href="www.facebook.com"><i class="fab fa-facebook-f "></i></a>
+                        <a href="www.twitter.com"><i class="fab fa-twitter "></i></a>
+                        <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="aa">
+        &copy;MY E-Commerse Website 2024
+    </footer>
+
+
+</body>
+
+</html>
